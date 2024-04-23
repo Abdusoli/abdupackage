@@ -97,9 +97,9 @@ report <- function(responses, path) {
   path <- normalizePath(path)
   # path to style.css
   path_style <- system.file("app", "www", "style.css",
-                            package = "rpc")
+                            package = "abdupackage")
   # path to report template
-  path_report <- system.file("report.Rmd", package = "rpc")
+  path_report <- system.file("report.Rmd", package = "abdupackage")
 
   # path to rendered report.Rmd
   path_rmd <- file.path(path, "report.Rmd")
