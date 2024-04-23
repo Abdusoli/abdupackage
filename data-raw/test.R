@@ -6,7 +6,7 @@
 
 test <- list()
 
-test$title <- "Test Your Personality2"
+test$title <- "Personality Test, CS-7863"
 
 test$instruction <- paste(
   "Describe yourself as you generally are now ok,",
@@ -25,7 +25,7 @@ test$statements <- trimws(readLines("statements.md"))
 
 test$scale <- data.frame(
   label = c(
-    "Very Inaccurateb",
+    "Very Inaccurate",
     "Moderately Inaccurate",
     "Neither Accurate Nor Inaccurate",
     "Moderately Accurate",
@@ -48,3 +48,6 @@ test$factors <- list(
   "Emotional Stability" = c(4, 9, 14, 19, 24, 29, 34, 39, 44, 49),
   "Intellect/Imagination" = c(5, 10, 15, 20, 25, 30, 35, 40, 45, 50)
 )
+
+usethis::use_data(test, overwrite = TRUE)
+
