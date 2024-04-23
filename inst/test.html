@@ -13,7 +13,7 @@
     <h1>{{ test$title }}</h1>
     <p>{{ test$instruction }}</p>
   </header>
-  {{ rpc:::htmlize_items() }}
+  {{ abdupackage::htmlize_items() }}
   {{ shiny::actionButton("submit", label = "Submit") }}
 </div>
 </body>

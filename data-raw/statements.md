@@ -1,4 +1,4 @@
-I am the life of the party hehe.
+I am the life of the party
 I feel little concern for others.
 I am always prepared.
 I get stressed out easily.
