@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ rpc:::test$title }}</title>
+  <link type="text/css" rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width">
+  {{ headContent() }}
+</head>
+
+<body>
+<div class="test">
+  <header>
+    <h1>{{ test$title }}</h1>
+    <p>{{ test$instruction }}</p>
+  </header>
+  {{ rpc:::htmlize_items() }}
+  {{ shiny::actionButton("submit", label = "Submit") }}
+</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+  background-color: #faf7f2;
+  color: #766c60;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.main-container, .test {
+  background-color: #fff;
+  margin: 60px auto 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: left;
+}
+
+.title {
+  margin: 75px auto 45px;
+  font-size: 35px !important;
+}
+
+img {
+  margin: 40px auto 40px;
+}
+
+.test {
+  width: 840px;
+  padding-bottom: 80px;
+}
+.test h1 {
+  padding-top: 70px;
+  padding-bottom: 15px;
+  font-size: 35px;
+}
+.test .control-label {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.test .shiny-options-group {
+  margin-top: 5px !important;
+}
+.test .shiny-input-container {
+  width: 100% !important;
+}
+.test .item {
+  margin: 30px 0;
+}
+.test button {
+  padding: 10px 15px;
+  font-size: 17px;
+  border-radius: 20px;
+  border-color: transparent;
+  outline: none;
+  float: right;
+  color: #766c60;
+  background-color: #faf7f2;
+}
+
+@media screen and (max-width: 950px) {
+  .test {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
