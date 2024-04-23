@@ -2,7 +2,7 @@
 test <- list()
 
 test$title <- "Test Your Personality6"
-test$statements <- trimws(readLines("statements.md"))
+test$statements <- trimws(readLines("data-raw/statements.md"))
 
 test$scale <- data.frame(
   label = c(
