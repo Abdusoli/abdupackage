@@ -21,7 +21,7 @@ test$instruction <- paste(
   "4. Moderately Accurate, or 5. Very Accurate as a description of you."
 )
 
-test$statements <- trimws(readLines("statements.md"))
+test$statements <- trimws(readLines("data-raw/statements.md"))
 
 test$scale <- data.frame(
   label = c(
