@@ -1,6 +1,6 @@
 body {
-  background-color: #faf7f2;
-  color: #766c60;
+  background-color: #EAEDED;
+  color: black;
   font-size: 17px;
   text-align: justify;
 }
@@ -55,8 +55,8 @@ img {
   border-color: transparent;
   outline: none;
   float: right;
-  color: #766c60;
-  background-color: #faf7f2;
+  color: white;
+  background-color: #008CBA;
 }
 
 @media screen and (max-width: 950px) {
